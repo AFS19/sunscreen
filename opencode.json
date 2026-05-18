@@ -1,5 +1,6 @@
 {
     "$schema": "https://opencode.ai/config.json",
+    "default_agent": "laravel",
     "mcp": {
         "laravel-boost": {
             "type": "local",
@@ -9,6 +10,12 @@
                 "artisan",
                 "boost:mcp"
             ]
+        }
+    },
+    "agent": {
+        "laravel": {
+            "description": "Expert Laravel, Livewire, Alpine.js, TailwindCSS, and FilamentPHP development assistant.",
+            "model": "anthropic/claude-sonnet-4-7"
         }
     }
 }

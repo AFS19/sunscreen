@@ -1,14 +1,20 @@
 {
     "agents": [
-        "opencode"
+        "opencode",
+        "copilot",
+        "junie"
     ],
     "cloud": false,
     "guidelines": true,
     "mcp": true,
     "nightwatch": false,
+    "packages": [
+        "filament/filament"
+    ],
     "sail": false,
     "skills": [
         "laravel-best-practices",
+        "livewire-development",
         "pest-testing",
         "tailwindcss-development"
     ]
